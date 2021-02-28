@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>object_detection_gl_ros</name>
+  <version>0.0.1</version>
+  <description>The object_detection_gl_ros package</description>
+
+  <maintainer email="project@soslab.co">SOSLAB Co., Ltd.</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://soslab.co</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <!--<depend>roscpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>visualization_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>message_generation</depend>
+  <depend>rosserial_arduino</depend>
+  <depend>rosserial_client</depend>-->
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>visualization_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>rosserial_arduino</build_depend>
+  <build_depend>rosserial_client</build_depend>
+
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>sensor_msgs</build_export_depend>
+  <build_export_depend>visualization_msgs</build_export_depend>
+  <build_export_depend>geometry_msgs</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <build_export_depend>message_generation</build_export_depend>
+  <build_export_depend>rosserial_arduino</build_export_depend>
+  <build_export_depend>rosserial_client</build_export_depend>
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>visualization_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>message_generation</exec_depend>
+  <exec_depend>rosserial_arduino</exec_depend>
+  <exec_depend>rosserial_client</exec_depend>
+</package>
